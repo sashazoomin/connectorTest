@@ -1,0 +1,12 @@
+name: Greeting from Mona
+on: push
+jobs:
+  my-job:
+    name: My Job
+    runs-on: ubuntu-latest
+    steps:
+      - name: Github Uploader for Salesforce Unified Knowledge
+  # You may pin to the exact commit or the version.
+  # uses: zoomin-software/s3-publish@38f3b29a713cb77e43dd6c971bace13d4ce67cc9
+        uses: zoomin-software/s3-publish@v0.1.1
+          
